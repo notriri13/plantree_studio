@@ -76,8 +76,8 @@ main {
 .description {
     position: absolute;
     top: 250px;
-    left: 10px;
-    z-index: 10;
+    left: 20px;
+    z-index: 5;
     background: #d5ffbd;
     padding: 30px;
 }
@@ -92,7 +92,7 @@ main {
     background-position: center; 
     margin: 10px auto;
     box-shadow: 10px 15px 20px; 
-   
+    z-index: 1;
 }
 
 .sliderbox {
@@ -224,7 +224,7 @@ main {
 .modal {
     display: none;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 0;
     top: 0;
     width: 100%;
