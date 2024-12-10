@@ -73,10 +73,14 @@ main {
     background-color: #45a049;
 }
 
-
-
-
-
+.description {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    z-index: 10;
+    background: rgb(255, 255, 225, 0.8);
+    padding: 30px;
+}
 
 #outerbox {
     width: 300px;
